@@ -15,3 +15,10 @@
 //     }
 //   }
 // });
+
+new Vue({
+	el: '#exercise',
+	data: {
+		age: 33
+	}
+});
