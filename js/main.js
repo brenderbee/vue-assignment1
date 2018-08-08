@@ -19,6 +19,7 @@
 new Vue({
 	el: '#exercise',
 	data: {
-		age: 33
+		age: 33,
+		name: 'Brenda'
 	}
 });
