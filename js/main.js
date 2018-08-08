@@ -25,6 +25,9 @@ new Vue({
 	methods: {
 		ageMultiply: function(num) {
 			return this.age * num;
+		},
+		randomNumber: function() {
+			return Math.random();
 		}
 	}
 });
