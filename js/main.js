@@ -20,7 +20,8 @@ new Vue({
 	el: '#exercise',
 	data: {
 		age: 33,
-		name: 'Brenda'
+		name: 'Brenda',
+		link: `https://random.dog/63aec50b-28d8-46b3-8d6c-b8357165ed55.jpg`
 	},
 	methods: {
 		ageMultiply: function(num) {
