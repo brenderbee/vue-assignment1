@@ -21,5 +21,10 @@ new Vue({
 	data: {
 		age: 33,
 		name: 'Brenda'
+	},
+	methods: {
+		ageMultiply: function(num) {
+			return this.age * num;
+		}
 	}
 });
